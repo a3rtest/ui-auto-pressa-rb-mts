@@ -1,0 +1,75 @@
+2024-07-02 10:54:00 INFO  JournalFreeCategoryTest:27 - Начало выполнения всех тестов.
+2024-07-02 10:54:36 INFO  JournalFreeCategoryTest:37 - Нажали на главной странице кнопку Журналы
+2024-07-02 10:54:40 INFO  JournalFreeCategoryTest:40 - Выбрали категорию Бесплатные
+2024-07-02 10:54:41 INFO  JournalFreeCategoryTest:43 - На странице журнал нажали на кнопку Читать
+2024-07-02 10:54:42 INFO  JournalFreeCategoryTest:46 - Открылась читалка журнала
+2024-07-02 10:55:07 INFO  JournalFreeCategoryTest:27 - Начало выполнения всех тестов.
+2024-07-02 10:55:16 INFO  JournalFreeCategoryTest:37 - Нажали на главной странице кнопку Журналы
+2024-07-02 10:55:21 INFO  JournalFreeCategoryTest:40 - Выбрали категорию Бесплатные
+2024-07-02 10:55:22 INFO  JournalFreeCategoryTest:43 - На странице журнал нажали на кнопку Читать
+2024-07-02 10:55:23 INFO  JournalFreeCategoryTest:46 - Открылась читалка журнала
+2024-07-02 16:18:18 INFO  JournalFreeCategoryTest:29 - Куки очищены
+2024-07-02 16:18:32 INFO  JournalFreeCategoryTest:39 - Начало теста: testJournalFreeCategory
+2024-07-02 16:18:32 INFO  JournalFreeCategoryTest:40 - Нажали на главной странице кнопку Журналы
+2024-07-02 16:18:33 INFO  JournalFreeCategoryTest:43 - Выбрали категорию Бесплатные
+2024-07-02 16:18:34 INFO  JournalFreeCategoryTest:46 - На странице журнал нажали на кнопку Читать
+2024-07-02 16:18:35 INFO  JournalFreeCategoryTest:49 - Открылась читалка журнала
+2024-07-02 16:18:36 INFO  JournalFreeCategoryTest:53 - Тест 'testJournalFreeCategory' завершен успешно.
+2024-07-02 16:19:34 INFO  JournalFreeCategoryTest:29 - Куки очищены
+2024-07-02 16:19:34 INFO  JournalFreeCategoryTest:38 - Начало теста: testJournalFreeCategory
+2024-07-02 16:19:40 INFO  JournalFreeCategoryTest:40 - Нажали на главной странице кнопку Журналы
+2024-07-02 16:22:09 INFO  JournalFreeCategoryTest:29 - Куки очищены
+2024-07-02 16:22:09 INFO  JournalFreeCategoryTest:30 - Открытие главной страницы
+2024-07-02 16:22:15 INFO  JournalFreeCategoryTest:40 - Начало теста: testJournalFreeCategory
+2024-07-02 16:22:15 INFO  JournalFreeCategoryTest:41 - Нажатие на кнопку 'Журналы' на главной странице
+2024-07-02 16:22:19 INFO  JournalFreeCategoryTest:44 - Выбор категории 'Бесплатные' на странице журналов
+2024-07-02 16:22:20 INFO  JournalFreeCategoryTest:47 - Нажатие на кнопку 'Читать' на странице деталей журнала.
+2024-07-02 16:22:21 INFO  JournalFreeCategoryTest:50 - Проверка открытия читалки журнала.
+2024-07-02 16:28:28 INFO  JournalFreeCategoryTest:29 - Куки очищены
+2024-07-02 16:28:28 INFO  JournalFreeCategoryTest:30 - Открытие главной страницы
+2024-07-02 16:28:39 INFO  JournalFreeCategoryTest:41 - Начало теста: testJournalFreeCategory
+2024-07-02 16:28:39 INFO  JournalFreeCategoryTest:42 - Нажатие на кнопку 'Журналы' на главной странице
+2024-07-02 16:28:43 INFO  JournalFreeCategoryTest:45 - Выбор категории 'Бесплатные' на странице журналов
+2024-07-02 16:28:44 INFO  JournalFreeCategoryTest:48 - Нажатие на кнопку 'Читать' на странице деталей журнала.
+2024-07-02 16:28:44 INFO  JournalFreeCategoryTest:51 - Проверка открытия читалки журнала.
+2024-07-02 16:28:46 INFO  JournalFreeCategoryTest:55 - Тест 'testJournalFreeCategory' завершен успешно.
+2024-07-02 16:28:55 INFO  JournalFreeCategoryTest:29 - Куки очищены
+2024-07-02 16:28:55 INFO  JournalFreeCategoryTest:30 - Открытие главной страницы
+2024-07-02 16:29:02 INFO  JournalFreeCategoryTest:41 - Начало теста: testJournalFreeCategory
+2024-07-02 16:29:02 INFO  JournalFreeCategoryTest:42 - Нажатие на кнопку 'Журналы' на главной странице
+2024-07-02 16:30:15 INFO  JournalFreeCategoryTest:29 - Куки очищены
+2024-07-02 16:30:15 INFO  JournalFreeCategoryTest:30 - Открытие главной страницы
+2024-07-02 16:30:21 INFO  JournalFreeCategoryTest:41 - Начало теста: testJournalFreeCategory
+2024-07-02 16:30:21 INFO  JournalFreeCategoryTest:42 - Нажатие на кнопку 'Журналы' на главной странице
+2024-07-02 16:30:24 INFO  JournalFreeCategoryTest:45 - Выбор категории 'Бесплатные' на странице журналов
+2024-07-02 16:30:25 INFO  JournalFreeCategoryTest:48 - Нажатие на кнопку 'Читать' на странице деталей журнала.
+2024-07-02 16:35:28 INFO  JournalFreeCategoryTest:29 - Куки очищены
+2024-07-02 16:35:28 INFO  JournalFreeCategoryTest:30 - Открытие главной страницы
+2024-07-02 16:35:34 INFO  JournalFreeCategoryTest:40 - Начало теста: testJournalFreeCategory
+2024-07-02 16:35:34 INFO  JournalFreeCategoryTest:41 - Нажатие на кнопку 'Журналы' на главной странице
+2024-07-02 16:35:35 INFO  JournalFreeCategoryTest:44 - Выбор категории 'Бесплатные' на странице журналов
+2024-07-02 16:35:36 INFO  JournalFreeCategoryTest:47 - Нажатие на кнопку 'Читать' на странице деталей журнала.
+2024-07-02 16:35:37 INFO  JournalFreeCategoryTest:50 - Проверка открытия читалки журнала.
+2024-07-02 16:35:39 INFO  JournalFreeCategoryTest:54 - Тест 'testJournalFreeCategory' завершен успешно.
+2024-07-02 16:38:48 INFO  JournalFreeCategoryTest:29 - Куки очищены
+2024-07-02 16:38:48 INFO  JournalFreeCategoryTest:30 - Открытие главной страницы
+2024-07-02 16:38:56 INFO  JournalFreeCategoryTest:41 - Начало теста: testJournalFreeCategory
+2024-07-02 16:38:56 INFO  JournalFreeCategoryTest:42 - Нажатие на кнопку 'Журналы' на главной странице
+2024-07-02 16:38:56 INFO  JournalFreeCategoryTest:45 - Выбор категории 'Бесплатные' на странице журналов
+2024-07-02 16:38:58 INFO  JournalFreeCategoryTest:48 - Нажатие на кнопку 'Читать' на странице деталей журнала.
+2024-07-02 17:09:35 INFO  JournalFreeCategoryTest:29 - Куки очищены
+2024-07-02 17:09:35 INFO  JournalFreeCategoryTest:30 - Открытие главной страницы
+2024-07-02 17:09:40 INFO  JournalFreeCategoryTest:40 - Начало теста: testJournalFreeCategory
+2024-07-02 17:09:40 INFO  JournalFreeCategoryTest:41 - Нажатие на кнопку 'Журналы' на главной странице
+2024-07-02 17:09:41 INFO  JournalFreeCategoryTest:44 - Выбор категории 'Бесплатные' на странице журналов
+2024-07-02 17:09:43 INFO  JournalFreeCategoryTest:47 - Нажатие на кнопку 'Читать' на странице деталей журнала.
+2024-07-02 17:09:43 INFO  JournalFreeCategoryTest:50 - Проверка открытия читалки журнала.
+2024-07-02 17:09:45 INFO  JournalFreeCategoryTest:53 - Тест 'testJournalFreeCategory' завершен успешно.
+2024-07-02 17:09:58 INFO  JournalFreeCategoryTest:29 - Куки очищены
+2024-07-02 17:09:58 INFO  JournalFreeCategoryTest:30 - Открытие главной страницы
+2024-07-02 17:10:04 INFO  JournalFreeCategoryTest:40 - Начало теста: testJournalFreeCategory
+2024-07-02 17:10:04 INFO  JournalFreeCategoryTest:41 - Нажатие на кнопку 'Журналы' на главной странице
+2024-07-02 17:10:05 INFO  JournalFreeCategoryTest:44 - Выбор категории 'Бесплатные' на странице журналов
+2024-07-02 17:10:05 INFO  JournalFreeCategoryTest:47 - Нажатие на кнопку 'Читать' на странице деталей журнала.
+2024-07-02 17:10:06 INFO  JournalFreeCategoryTest:50 - Проверка открытия читалки журнала.
+2024-07-02 17:10:08 INFO  JournalFreeCategoryTest:53 - Тест 'testJournalFreeCategory' завершен успешно.
