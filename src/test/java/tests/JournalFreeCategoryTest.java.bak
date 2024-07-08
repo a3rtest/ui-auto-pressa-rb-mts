@@ -51,6 +51,5 @@ public class JournalFreeCategoryTest {
                 journalReaderPage.showPageJournal();
 
                 logger.info("Тест 'testJournalFreeCategory' завершен успешно.");
-				logger.info("Новый коммит");
         }
     }
