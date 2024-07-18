@@ -1,0 +1,5 @@
+pages\JournalReaderPage.class
+pages\JournalsPage.class
+pages\JournalDetailPage.class
+tests\JournalFreeCategoryTest.class
+pages\MainPage.class
