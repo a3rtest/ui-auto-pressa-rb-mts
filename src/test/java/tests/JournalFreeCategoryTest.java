@@ -4,9 +4,9 @@ import com.codeborne.selenide.Selenide;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import org.junit.Before;
-import org.junit.Test;
-
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
 import pages.JournalDetailPage;
 import pages.JournalReaderPage;
 import pages.JournalsPage;
@@ -14,43 +14,46 @@ import pages.MainPage;
 
 import static com.codeborne.selenide.Selenide.open;
 import static com.codeborne.selenide.Selenide.page;
-import static pages.MainPage.BASE_URL;
+import static pages.MainPage.*;
 
 public class JournalFreeCategoryTest {
     private static final Logger logger = LogManager.getLogger(JournalFreeCategoryTest.class);
-    private MainPage mainPage;
-    private JournalsPage journalsPage;
-    private JournalDetailPage journalDetailPage;
-    private JournalReaderPage journalReaderPage;
+    private static MainPage mainPage;
+    private static JournalsPage journalsPage;
+    private static JournalDetailPage journalDetailPage;
+    private static JournalReaderPage journalReaderPage;
 
-    @Before
+    @BeforeEach
     public void setup() {
-        Selenide.clearBrowserCookies();
-        logger.info("Куки очищены");
         logger.info("Открытие главной страницы");
         open(BASE_URL);
+        logger.info("Очистка куков");
+        Selenide.clearBrowserCookies();
+        logger.info("Перезагрузка главной страницы");
+        Selenide.refresh();
+
         mainPage = page(MainPage.class);
         journalsPage = page(JournalsPage.class);
         journalDetailPage = page(JournalDetailPage.class);
         journalReaderPage = page(JournalReaderPage.class);
     }
-
     @Test
-    public void testJournalFreeCategory() {
-                logger.info("Начало теста: testJournalFreeCategory");
-                logger.info("Нажатие на кнопку 'Журналы' на главной странице");
-                mainPage.clickJournalButton();
+    @DisplayName("Проверка журналов категории Бесплатно")
+     public void testJournalFreeCategory() {
 
-                logger.info("Выбор категории 'Бесплатные' на странице журналов");
-                journalsPage.clickJournalInFreeCategory();
+        logger.info("Начало теста: testJournalFreeCategory");
+        logger.info("Нажатие на кнопку 'Журналы' на главной странице");
+        mainPage.clickJournalButton();
 
-                logger.info("Нажатие на кнопку 'Читать' на странице деталей журнала.");
-                journalDetailPage.clickJournalReadButton();
+        logger.info("Выбор категории 'Бесплатные' на странице журналов");
+        journalsPage.clickJournalInFreeCategory();
 
-                logger.info("Проверка открытия читалки журнала.");
-                journalReaderPage.showPageJournal();
+        logger.info("Нажатие на кнопку 'Читать' на странице деталей журнала.");
+        journalDetailPage.clickJournalReadButton();
 
-                logger.info("Тест 'testJournalFreeCategory' завершен успешно.");
-				logger.info("Новый коммит");
-        }
+        logger.info("Проверка открытия читалки журнала.");
+        journalReaderPage.showPageJournal();
+
+        logger.info("Тест 'testJournalFreeCategory' завершен успешно.");
     }
+}
